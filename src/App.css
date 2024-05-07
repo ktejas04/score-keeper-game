@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+.ping-pong {
+    font-family: 'Pixelify Sans',sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAgeyjrk2lcECISxLNLjWEx8S0Oz5gxp_L8uLOTw2j_w&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.link{
+    margin: 1rem 0;
+    width: 45vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 230, 199);
+    border-radius: 10px;
+    font-size: 3rem;
+    color: #280698;
+    text-transform: uppercase;
+    transition: all 300ms;
+}
+
+.link:hover{
+    background-color: rgb(240, 199, 148);
+    color: #280698;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+.rankings {
+    font-family: 'Pixelify Sans', sans-serif;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAgeyjrk2lcECISxLNLjWEx8S0Oz5gxp_L8uLOTw2j_w&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(134, 241, 229);
+    margin-top: 20vh ;
+    font-size: 5rem;
+}
+
+ul > li {
+    text-align: center;
+}
+
+.main-menu {
+    margin-top: 2vh;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgb(134, 241, 229);
+}
